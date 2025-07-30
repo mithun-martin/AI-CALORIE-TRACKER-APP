@@ -1,0 +1,95 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Calorie Tracker - User Info</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body class="bg-[#0a0a23] text-white">
+
+  <div class="container mt-5">
+    <h1 class="text-center mb-4">Enter Your Details</h1>
+    <form action="/user_info" method="POST" class="p-4 rounded" style="background-color: #171727; max-width: 600px; margin: 0 auto;">
+
+      <div class="mb-3">
+        <label class="form-label">Gender</label>
+        <select name="gender" class="form-select" required>
+          <option value="">Select</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Age</label>
+        <input type="number" name="age" required class="form-control" style="background-color: #0a0a23; color: white; border: 1px solid #444;">
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Height (cm)</label>
+        <input type="number" name="height" required class="form-control" style="background-color: #0a0a23; color: white; border: 1px solid #444;">
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Weight (kg)</label>
+        <input type="number" name="weight" required class="form-control" style="background-color: #0a0a23; color: white; border: 1px solid #444;">
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Activity Level</label>
+        <select name="activity_level" class="form-select" required>
+          <option value="">Select</option>
+          <option value="🛋️ Lightly Active">🛋️ Lightly Active</option>
+          <option value="🚶 Moderately Active">🚶 Moderately Active</option>
+          <option value="🏃 Active">🏃 Active</option>
+          <option value="🏋️ Very Active">🏋️ Very Active</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Fitness Goal</label>
+        <select name="goal" class="form-select" required>
+          <option value="">Select</option>
+          <option value="Bulking">💪 Bulking</option>
+          <option value="Cutting">🔥 Cutting</option>
+          <option value="Maintenance">⚖️ Maintenance</option>
+        </select>
+      </div>
+
+      <a href="/calorie_calculator" class="btn btn-success w-100 mt-3">Go to Calorie Calculator 🔢</a>
+
+
+      <button type="submit" class="btn custom-btn w-100">Submit</button>
+    </form>
+
+    ✅ AI Calorie Suggestion Box -->
+    <!-- {% if ai_suggestion %}
+    <div class="mt-4 p-4 rounded ai-box" style="background-color: #101f3c; border-left: 5px solid #0dcaf0;">
+      <h3 class="mb-2">🧠 AI Calorie Recommendation</h3>
+      <p style="white-space: pre-line;">{{ ai_suggestion }}</p>
+    </div>
+    {% endif %}
+
+    Users List
+    {% if all_users %}
+    <div class="mt-5">
+      <h2 class="text-center">Submitted Users</h2>
+      <ul class="list-group">
+        {% for user in all_users %}
+        <li class="list-group-item bg-dark text-white">
+          {{ user.gender.value }} | {{ user.age }} yrs | {{ user.weight }} kg | {{ user.height }} cm | {{ user.activity_level.value }} | {{ user.goal.value }}
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html> -->
