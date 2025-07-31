@@ -1,0 +1,20 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+env/
+
+# SQLite or other local DBs
+*.db
+
+# OS junk
+.DS_Store
+
+# Heroku/Pycache logs
+*.log
+
+# Environment config
+.env
